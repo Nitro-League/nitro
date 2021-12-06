@@ -13,7 +13,7 @@ async function main() {
   // manually to make sure everything is compiled
   // await hre.run('compile');
 
-  const DistributerAddress = "0x085a958427aaA3Ac8Be6174F630a96641538E280"; //Naeemz
+  const DistributerAddress = ""; //Provide distributoer's address here
 
   // We get the contract to deploy
   const Nitro = await ethers.getContractFactory("Nitro");
